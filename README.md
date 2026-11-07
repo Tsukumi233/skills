@@ -7,6 +7,7 @@
 | Skill | 用途 |
 | --- | --- |
 | [frontend-design-references](skills/frontend-design-references/SKILL.md) | 前端设计参考选择、参考说明与动效组件选型 |
+| [speculate](skills/speculate/SKILL.md) | 投机执行：先预测并在隔离环境做出结果，再请用户确认或丢弃，减少来回提问 |
 
 ## 结构
 
@@ -40,4 +41,4 @@ python3 scripts/validate_skills.py
 
 ## 来源与授权
 
-各 skill 在正文或独立来源文件中记录来源。当前 `frontend-design-references` 导入自用户提供的同名 `.skill` 包，正文注明整理自埃弗里特鱼《存 25 个 Vibe Coding 的参考网站》。本仓库未附统一许可证；第三方内容和所引用组件按各自授权使用。
+各 skill 在正文或独立来源文件中记录来源。当前 `frontend-design-references` 导入自用户提供的同名 `.skill` 包，正文注明整理自埃弗里特鱼《存 25 个 Vibe Coding 的参考网站》。`speculate` 的思路来自 DeepSeek Harness 团队《Super-agent 设计探索：迈向更自主的 Agent 系统》第 3.4 节，正文为改写与扩展，未复制原文。本仓库未附统一许可证；第三方内容和所引用组件按各自授权使用。
